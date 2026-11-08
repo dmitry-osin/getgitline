@@ -1,0 +1,164 @@
+{
+  "product": "GitLine",
+  "capturedAt": "2026-11-08",
+  "locales": [
+    "ru",
+    "en"
+  ],
+  "features": [
+    {
+      "id": "inline",
+      "ru": {
+        "title": "Кто изменил строку и когда",
+        "description": "Смотрите автора, время и сообщение последнего коммита для строки под кареткой. При необходимости включите аннотации для всех видимых или выделенных строк. Для строк с локальными изменениями используется отдельный шаблон."
+      },
+      "en": {
+        "title": "Git context beside your code",
+        "description": "See the author, time and commit summary for the line at your caret. You can also show annotations for all visible or selected lines. Locally changed lines use a separate template."
+      }
+    },
+    {
+      "id": "hover",
+      "ru": {
+        "title": "Подробности о коммите",
+        "description": "Наведите указатель на аннотацию, чтобы увидеть автора, дату, сообщение коммита и ссылку с коротким хэшем. Подробные сведения загружаются, когда они нужны."
+      },
+      "en": {
+        "title": "Commit details on hover",
+        "description": "Hover over an annotation to see the author, date, commit message and a link with the short hash. Full commit details load when you need them."
+      }
+    },
+    {
+      "id": "actions",
+      "ru": {
+        "title": "Быстрый переход к истории",
+        "description": "Откройте коммит в Git Log, посмотрите diff или скопируйте полный хэш. Команды доступны во всплывающем окне и в меню Alt+Enter → GitLine. Перейти к коммиту в браузере можно, если для Git-хостинга настроена ссылка."
+      },
+      "en": {
+        "title": "From a line to its history",
+        "description": "Open a commit in Git Log, view its diff or copy the full hash. Find these commands in the hover popup or under Alt+Enter → GitLine. You can also open the commit in your browser if a URL is configured for your Git host."
+      }
+    },
+    {
+      "id": "status",
+      "ru": {
+        "title": "Сведения в строке состояния",
+        "description": "Информация о строке под основной кареткой доступна и в строке состояния IDE. У неё свой шаблон, который работает независимо от режима аннотаций рядом с кодом."
+      },
+      "en": {
+        "title": "Line details in the status bar",
+        "description": "You can also see details for the line at the primary caret in the IDE’s status bar. It has its own template and works independently of the inline display mode."
+      }
+    },
+    {
+      "id": "templates",
+      "ru": {
+        "title": "Четыре шаблона для разных задач",
+        "description": "Настройте Inline, Uncommitted, Hover HTML и Status bar с помощью FreeMarker. В редакторе есть автодополнение, справочник переменных и проверка ошибок. Preview покажет результат на демонстрационных данных или текущей строке."
+      },
+      "en": {
+        "title": "Four templates for different views",
+        "description": "Customize Inline, Uncommitted, Hover HTML and Status bar with FreeMarker. The editor offers completion, a variable reference and error messages. Check the result in Preview using sample data or the current line."
+      }
+    },
+    {
+      "id": "presets",
+      "ru": {
+        "title": "Пресеты, импорт и экспорт",
+        "description": "Начните со стандартного, компактного или подробного пресета. Экспорт в JSON сохраняет все четыре шаблона, включая несохранённые правки. Цвета, фильтры и другие настройки в файл не входят. После импорта или выбора пресета нажмите Apply, чтобы сохранить шаблоны."
+      },
+      "en": {
+        "title": "Presets, import and export",
+        "description": "Start with a Standard, Compact or Detailed preset. Export all four templates to JSON, including unsaved edits, or import them from a file. Select Apply after choosing a preset or importing templates. Colors, filters and other settings are not included in the JSON file."
+      }
+    },
+    {
+      "id": "appearance",
+      "ru": {
+        "title": "Оформление под вашу IDE",
+        "description": "Используйте цвета темы IDE или задайте свои для светлого и тёмного режима. Цвет может зависеть от автора или давности коммита. Настройте прозрачность, длину, отступ и курсив; именованные стили помогут отдельно выделить автора, дату и хэш."
+      },
+      "en": {
+        "title": "Fits your IDE theme",
+        "description": "Use your IDE’s colors or choose your own for light and dark themes. Color annotations by author or commit age, and adjust opacity, length, spacing and italics. Named styles let you format the author, date and hash separately."
+      }
+    },
+    {
+      "id": "filters",
+      "ru": {
+        "title": "Меньше визуального шума",
+        "description": "Показывайте все коммиты, только свои или коммиты других авторов. Отбирайте изменения по давности, исключайте пути по glob-шаблонам и автоматически созданные файлы. По умолчанию обрабатываются файлы до 20 000 строк; этот предел можно изменить. Он действует и при отключённых фильтрах."
+      },
+      "en": {
+        "title": "Keep annotations relevant",
+        "description": "Show all commits, only your own or those by other authors. Filter by commit age, exclude paths with glob patterns and hide generated files. The file limit defaults to 20,000 lines and can be changed. It still applies when filters are turned off."
+      }
+    },
+    {
+      "id": "blame",
+      "ru": {
+        "title": "Настройте поиск автора строки",
+        "description": "Выберите, учитывать ли изменения пробелов, перемещение и копирование кода при поиске автора строки. Настройте длину короткого хэша и используйте .mailmap. Поддержка .git-blame-ignore-revs из корня репозитория включается отдельно и по умолчанию выключена."
+      },
+      "en": {
+        "title": "Choose how Git finds a line’s author",
+        "description": "Choose how blame handles whitespace changes and moved or copied code. Set the short hash length and use .mailmap. Support for the repository-root .git-blame-ignore-revs file has a separate setting, off by default."
+      }
+    },
+    {
+      "id": "aliases",
+      "ru": {
+        "title": "Понятные имена авторов",
+        "description": "Укажите в таблице, какое имя показывать для каждого email, и добавьте alias(author.email) в шаблон. Регистр и пробелы по краям не влияют на поиск. Если email не найден, он выводится без изменений. Исходные author.name и author.email сохраняются."
+      },
+      "en": {
+        "title": "Names you recognize",
+        "description": "Choose a display name for each email in the aliases table, then add alias(author.email) to your template. Matching ignores case and surrounding spaces. Unlisted emails are shown unchanged, and the original author.name and author.email values stay intact."
+      }
+    },
+    {
+      "id": "links",
+      "ru": {
+        "title": "Ссылки на коммиты и задачи",
+        "description": "Ссылки на коммиты уже настроены для GitHub, GitLab, Bitbucket, SourceCraft и GitVerse. Можно добавить другой Git-хостинг и выбрать remote автоматически или по имени. Для ссылок на задачи задайте одно регулярное выражение для номера и URL с {id}; их используют функции issues(text) и issueUrl(id)."
+      },
+      "en": {
+        "title": "Commit and issue links",
+        "description": "Commit URL patterns are included for GitHub, GitLab, Bitbucket, SourceCraft and GitVerse. Add other Git hosts and select a remote automatically or by name. For issue links, set one ID regular expression and a URL with {id}; the functions issues(text) and issueUrl(id) use these settings."
+      }
+    },
+    {
+      "id": "project",
+      "ru": {
+        "title": "Настройки проекта",
+        "description": "Отключите GitLine для отдельного проекта или задайте для него свои шаблоны Inline и Uncommitted. Такие шаблоны применяются только в доверенных проектах. Остальные шаблоны и дополнительные параметры настраиваются для IDE в целом."
+      },
+      "en": {
+        "title": "Settings for individual projects",
+        "description": "Turn GitLine off for a project or give it its own Inline and Uncommitted templates. Project templates apply only to trusted projects. Other templates and advanced settings apply across the IDE."
+      }
+    },
+    {
+      "id": "gitconfig",
+      "ru": {
+        "title": "Как сохраняются настройки .gitconfig",
+        "description": "Разделы Repository, Identity, Line Endings, Pull / Fetch / Push и Context показывают настройки выбранного репозитория или worktree. Для каждого параметра видны действующее значение и его источник. Можно задать своё значение или оставить унаследованное. До нажатия Apply изменения остаются в редакторе; затем они сохраняются одной операцией только для выбранной конфигурации."
+      },
+      "en": {
+        "title": "How .gitconfig changes are saved",
+        "description": "Repository, Identity, Line Endings, Pull / Fetch / Push and Context show settings for the selected repository or worktree. See the value in use and its source, then set your own value or keep the inherited one. Changes stay in the editor until you select Apply, which saves them atomically to the selected configuration only."
+      }
+    },
+    {
+      "id": "workflow",
+      "ru": {
+        "title": "Работа в редакторе",
+        "description": "Настройте задержку появления аннотаций и скрывайте их на время ввода. GitLine работает в обычном редакторе файлов, в том числе с файлами только для чтения. Поддерживает несколько Git-репозиториев и worktree, использует кэш blame при редактировании и сохранении и учитывает локальные изменения строк."
+      },
+      "en": {
+        "title": "Working in the editor",
+        "description": "Set when annotations appear and hide them while you type. GitLine supports regular file editors, including read-only files, multiple Git roots and worktrees. It reuses cached blame while you edit and save, and accounts for local changes when matching lines."
+      }
+    }
+  ]
+}

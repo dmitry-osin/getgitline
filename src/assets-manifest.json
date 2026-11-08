@@ -1,0 +1,884 @@
+{
+  "createdAt": "2026-11-08",
+  "kind": "reference-kit",
+  "imageCount": 35,
+  "note": {
+    "ru": "34 отрисовки реальных UI-компонентов с демонстрационными данными и отдельный настоящий скриншот автора с меню действий GitLine. Внешнее меню Alt+Enter IDE не снято. Небольшие SDK icons в отрисовках могут отличаться от OpenIDE.",
+    "en": "34 real UI component renders with demonstration data, plus an original author screenshot of GitLine’s action menu. The IDE’s outer Alt+Enter menu is not captured. Small SDK icons in the renders may differ from OpenIDE."
+  },
+  "assets": [
+    {
+      "id": "alt-enter-gitline-menu",
+      "file": "assets/ui/alt-enter-gitline-menu.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "author-screenshot",
+      "demonstrationData": false,
+      "desktopScreenshot": true,
+      "width": 152,
+      "height": 178,
+      "bytes": 4923,
+      "sha256": "35489903f750cb1e1a872d9dce5ed766324cd7642f06ba774f293bdb619c4845",
+      "component": "GitLine action menu",
+      "caption": {
+        "ru": "Меню действий GitLine.",
+        "en": "GitLine action menu."
+      },
+      "alt": {
+        "ru": "Меню GitLine: Show in Git Log, Copy hash, Show diff и Open in browser",
+        "en": "GitLine menu: Show in Git Log, Copy hash, Show diff and Open in browser"
+      },
+      "recommended": true
+    },
+    {
+      "id": "aliases-dark",
+      "file": "assets/ui/aliases-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 342,
+      "bytes": 29809,
+      "sha256": "b6ebcf995eb2b0baa522c470ba7773a44270baf61f1971dd894e5f09aab188f1",
+      "component": "AuthorAliasesConfigurable",
+      "caption": {
+        "ru": "Имена авторов по email. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Author display names. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Имена авторов по email, тёмная тема",
+        "en": "Author display names, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "aliases-light",
+      "file": "assets/ui/aliases-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 342,
+      "bytes": 30625,
+      "sha256": "6949bc943686d48c6f64e0423f618d235771f489e6c527e0354a1ac12165effb",
+      "component": "AuthorAliasesConfigurable",
+      "caption": {
+        "ru": "Имена авторов по email. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Author display names. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Имена авторов по email, светлая тема",
+        "en": "Author display names, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "appearance-dark",
+      "file": "assets/ui/appearance-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 874,
+      "bytes": 67262,
+      "sha256": "058e7042749022479da0f9897ab9e3bbded28246062d9c9b2da43274f4c9d781",
+      "component": "AppearanceConfigurable",
+      "caption": {
+        "ru": "Внешний вид аннотаций. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Annotation appearance. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Внешний вид аннотаций, тёмная тема",
+        "en": "Annotation appearance, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "appearance-light",
+      "file": "assets/ui/appearance-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 874,
+      "bytes": 69899,
+      "sha256": "7a156c64b24c228f0f6b710fc39880dfe9c1d3f8dc3a2fef8afb554685d0e537",
+      "component": "AppearanceConfigurable",
+      "caption": {
+        "ru": "Внешний вид аннотаций. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Annotation appearance. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Внешний вид аннотаций, светлая тема",
+        "en": "Annotation appearance, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "blame-dark",
+      "file": "assets/ui/blame-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 656,
+      "bytes": 63748,
+      "sha256": "1a565f6cbbdca86d0fab23a93cc516e1aaf2d84b0c2787dc172a9f867bdbcca9",
+      "component": "BlameConfigurable",
+      "caption": {
+        "ru": "Настройки blame и исключение коммитов. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Blame and ignore-revisions options. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Настройки blame и исключение коммитов, тёмная тема",
+        "en": "Blame and ignore-revisions options, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "blame-light",
+      "file": "assets/ui/blame-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 656,
+      "bytes": 66213,
+      "sha256": "ebcfe8f44e0e8a1a92e7ab9e2eb352f061f8def38513d5310bbfecd6404e2216",
+      "component": "BlameConfigurable",
+      "caption": {
+        "ru": "Настройки blame и исключение коммитов. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Blame and ignore-revisions options. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Настройки blame и исключение коммитов, светлая тема",
+        "en": "Blame and ignore-revisions options, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "filters-dark",
+      "file": "assets/ui/filters-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1068,
+      "bytes": 74777,
+      "sha256": "a18130f87e2f54722e8ce6fb58ad3af16703f4c51fc1b3c8b2f720b09fe95c87",
+      "component": "FiltersConfigurable",
+      "caption": {
+        "ru": "Фильтры по автору, давности коммита и файлам. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Filters for authors, commit age and files. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Фильтры по автору, давности коммита и файлам, тёмная тема",
+        "en": "Filters for authors, commit age and files, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "filters-light",
+      "file": "assets/ui/filters-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1068,
+      "bytes": 78407,
+      "sha256": "b9bddcf15f8bfda4a46481c92b7c5cb4dcf41e88457b28869c272515801f4a50",
+      "component": "FiltersConfigurable",
+      "caption": {
+        "ru": "Фильтры по автору, давности коммита и файлам. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Filters for authors, commit age and files. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Фильтры по автору, давности коммита и файлам, светлая тема",
+        "en": "Filters for authors, commit age and files, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "general-dark",
+      "file": "assets/ui/general-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 372,
+      "bytes": 21374,
+      "sha256": "bdf8add1559f4d6f9a9757d805b48ee8373611a3574c0046b4420bded17d745f",
+      "component": "GitLineConfigurable",
+      "caption": {
+        "ru": "Общие настройки GitLine. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "GitLine general settings. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Общие настройки GitLine, тёмная тема",
+        "en": "GitLine general settings, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "general-light",
+      "file": "assets/ui/general-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 372,
+      "bytes": 22505,
+      "sha256": "12c13b8cf2f289d491634f386fbfa369773cb3b43250721811ba6988df0e8576",
+      "component": "GitLineConfigurable",
+      "caption": {
+        "ru": "Общие настройки GitLine. Светлая тема. Пример с демонстрационными данными.",
+        "en": "GitLine general settings. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Общие настройки GitLine, светлая тема",
+        "en": "GitLine general settings, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-context-dark",
+      "file": "assets/ui/gitconfig-context-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 686,
+      "bytes": 38691,
+      "sha256": "1d9c2d93115cf7b82f7b55437da7cf24b6512c0f4a526c5a88a158670cd336e3",
+      "component": ".gitconfig Context",
+      "caption": {
+        "ru": "Текущая ветка, удалённые репозитории и upstream. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Current branch, remotes and upstream. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Текущая ветка, удалённые репозитории и upstream, тёмная тема",
+        "en": "Current branch, remotes and upstream, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-context-light",
+      "file": "assets/ui/gitconfig-context-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 686,
+      "bytes": 39932,
+      "sha256": "d51124b7851aa8c0564fa6cd57e0fb9896a7c63a36b3df2487db2191764b4c09",
+      "component": ".gitconfig Context",
+      "caption": {
+        "ru": "Текущая ветка, удалённые репозитории и upstream. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Current branch, remotes and upstream. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Текущая ветка, удалённые репозитории и upstream, светлая тема",
+        "en": "Current branch, remotes and upstream, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-eol-dark",
+      "file": "assets/ui/gitconfig-eol-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1244,
+      "bytes": 75280,
+      "sha256": "e8f07c39c850fd0751776b5ba4305d53824631c8ac90692991a7bfbb1cf05f90",
+      "component": ".gitconfig Line Endings",
+      "caption": {
+        "ru": "Окончания строк и наследование. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Line endings and inheritance. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Окончания строк и наследование, тёмная тема",
+        "en": "Line endings and inheritance, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-eol-light",
+      "file": "assets/ui/gitconfig-eol-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1244,
+      "bytes": 77641,
+      "sha256": "a7cb466e2d249ae8f68f183414be8a9ab71974b1d83a618b8c3d92cdf0804139",
+      "component": ".gitconfig Line Endings",
+      "caption": {
+        "ru": "Окончания строк и наследование. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Line endings and inheritance. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Окончания строк и наследование, светлая тема",
+        "en": "Line endings and inheritance, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-identity-dark",
+      "file": "assets/ui/gitconfig-identity-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 936,
+      "bytes": 53665,
+      "sha256": "514470e8341c439ca6425b07dce05cbc11faffef77f21d197f367fc420dc04c2",
+      "component": ".gitconfig Identity",
+      "caption": {
+        "ru": "Имя и email: текущие значения и их источники. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Identity: inherited name and email. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Имя и email: текущие значения и их источники, тёмная тема",
+        "en": "Identity: inherited name and email, dark theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "gitconfig-identity-light",
+      "file": "assets/ui/gitconfig-identity-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 936,
+      "bytes": 55147,
+      "sha256": "d6a6c0634011de9e2aaa3346d9d228931941f94503e13720b5354eb49a276aa8",
+      "component": ".gitconfig Identity",
+      "caption": {
+        "ru": "Имя и email: текущие значения и их источники. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Identity: inherited name and email. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Имя и email: текущие значения и их источники, светлая тема",
+        "en": "Identity: inherited name and email, light theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "gitconfig-repository-dark",
+      "file": "assets/ui/gitconfig-repository-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 614,
+      "bytes": 37458,
+      "sha256": "01500dbea6bf9bd9ed891423cb9b831e31e41002d72c0cd8fbac0182827aac15",
+      "component": ".gitconfig Repository",
+      "caption": {
+        "ru": "Выбор репозитория или worktree. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Repository and worktree selection. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Выбор репозитория или worktree, тёмная тема",
+        "en": "Repository and worktree selection, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-repository-light",
+      "file": "assets/ui/gitconfig-repository-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 614,
+      "bytes": 39043,
+      "sha256": "d3c4ea66f053751664229d680551e0cf19957d83ee5be32956f3e708fdd335c7",
+      "component": ".gitconfig Repository",
+      "caption": {
+        "ru": "Выбор репозитория или worktree. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Repository and worktree selection. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Выбор репозитория или worktree, светлая тема",
+        "en": "Repository and worktree selection, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "gitconfig-sync-dark",
+      "file": "assets/ui/gitconfig-sync-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1244,
+      "bytes": 71872,
+      "sha256": "b29c8cc36e457e253f61537b0b5dc90d87f9f94140de7d2eeaf1cfae7a2bd420",
+      "component": ".gitconfig Pull / Fetch / Push",
+      "caption": {
+        "ru": "Поведение Pull / Fetch / Push. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Pull / Fetch / Push behavior. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Поведение Pull / Fetch / Push, тёмная тема",
+        "en": "Pull / Fetch / Push behavior, dark theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "gitconfig-sync-light",
+      "file": "assets/ui/gitconfig-sync-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1244,
+      "bytes": 74238,
+      "sha256": "f38aa4e58639fe1c3ebc16f453a5a68652f7bab0789bc3e38156d4efb4751cb5",
+      "component": ".gitconfig Pull / Fetch / Push",
+      "caption": {
+        "ru": "Поведение Pull / Fetch / Push. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Pull / Fetch / Push behavior. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Поведение Pull / Fetch / Push, светлая тема",
+        "en": "Pull / Fetch / Push behavior, light theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "hover-actions-dark",
+      "file": "assets/ui/hover-actions-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1040,
+      "height": 458,
+      "bytes": 29413,
+      "sha256": "ada37cc8aaaac48cd66c686fb3d2110f68a4763bbbdc33a6e4d6d38bcd18e0c8",
+      "component": "HtmlHoverPopup + CommitActionsPanel",
+      "caption": {
+        "ru": "Сведения о коммите и доступные команды. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Commit details and four actions. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Сведения о коммите и доступные команды, тёмная тема",
+        "en": "Commit details and four actions, dark theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "hover-actions-light",
+      "file": "assets/ui/hover-actions-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1040,
+      "height": 458,
+      "bytes": 30203,
+      "sha256": "3a68702dbe3ce742e9ba36033ff07f57994b95b00944f6e7015af14eec6d7db8",
+      "component": "HtmlHoverPopup + CommitActionsPanel",
+      "caption": {
+        "ru": "Сведения о коммите и доступные команды. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Commit details and four actions. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Сведения о коммите и доступные команды, светлая тема",
+        "en": "Commit details and four actions, light theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "inline-editor-dark",
+      "file": "assets/ui/inline-editor-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 2560,
+      "height": 640,
+      "bytes": 54982,
+      "sha256": "c344b85732fd303638a8c061be0f89ff6c897610e1f98d278b11dafa10607a13",
+      "component": "GitLineRenderer",
+      "caption": {
+        "ru": "Аннотация рядом с кодом. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Inline annotation in the editor. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Аннотация рядом с кодом, тёмная тема",
+        "en": "Inline annotation in the editor, dark theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "inline-editor-light",
+      "file": "assets/ui/inline-editor-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 2560,
+      "height": 640,
+      "bytes": 55720,
+      "sha256": "aa14c582f4896f7acd59ea0ce93dbb7e4c2240cc223c2956c179cb827657c29a",
+      "component": "GitLineRenderer",
+      "caption": {
+        "ru": "Аннотация рядом с кодом. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Inline annotation in the editor. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Аннотация рядом с кодом, светлая тема",
+        "en": "Inline annotation in the editor, light theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "integrations-dark",
+      "file": "assets/ui/integrations-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1304,
+      "bytes": 131186,
+      "sha256": "b5c3a8760d60d56d76756fc05811ee41df89ada66abdbae13fd351e79a166670",
+      "component": "IntegrationsConfigurable",
+      "caption": {
+        "ru": "Git-хостинги, remote и ссылки на задачи. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Git hosts, remote and issue links. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Git-хостинги, remote и ссылки на задачи, тёмная тема",
+        "en": "Git hosts, remote and issue links, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "integrations-light",
+      "file": "assets/ui/integrations-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1304,
+      "bytes": 136633,
+      "sha256": "0a1d6fe380a3b3977baba11d0591ac274f369984c1a07525275dd50c56190f3c",
+      "component": "IntegrationsConfigurable",
+      "caption": {
+        "ru": "Git-хостинги, remote и ссылки на задачи. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Git hosts, remote and issue links. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Git-хостинги, remote и ссылки на задачи, светлая тема",
+        "en": "Git hosts, remote and issue links, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "preview-dark",
+      "file": "assets/ui/preview-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1240,
+      "bytes": 41811,
+      "sha256": "8846f020ba472107135c8904e6505b335c5afd18c1fd90610e016ba2c77bc33f",
+      "component": "PreviewPanel",
+      "caption": {
+        "ru": "Предпросмотр шаблона. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Template preview. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Предпросмотр шаблона, тёмная тема",
+        "en": "Template preview, dark theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "preview-light",
+      "file": "assets/ui/preview-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1240,
+      "bytes": 43461,
+      "sha256": "2ffbe0f4d0269ac900d589c949579020e957bfad3841f29872a453c3113c825e",
+      "component": "PreviewPanel",
+      "caption": {
+        "ru": "Предпросмотр шаблона. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Template preview. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Предпросмотр шаблона, светлая тема",
+        "en": "Template preview, light theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "project-dark",
+      "file": "assets/ui/project-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 740,
+      "bytes": 49194,
+      "sha256": "97a3e9efcc1e2bb2740f0a9b5b82f8addf006a8e0a368370e1c17a113bae59d4",
+      "component": "GitLineProjectConfigurable",
+      "caption": {
+        "ru": "Настройки и шаблоны проекта. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Project settings and templates. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Настройки и шаблоны проекта, тёмная тема",
+        "en": "Project settings and templates, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "project-light",
+      "file": "assets/ui/project-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 740,
+      "bytes": 50705,
+      "sha256": "7b06acf71ce51f96fe836ff357a5fde9d5fd23f87fa044da11a5a70eee0e8391",
+      "component": "GitLineProjectConfigurable",
+      "caption": {
+        "ru": "Настройки и шаблоны проекта. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Project settings and templates. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Настройки и шаблоны проекта, светлая тема",
+        "en": "Project settings and templates, light theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "templates-dark",
+      "file": "assets/ui/templates-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1240,
+      "bytes": 60635,
+      "sha256": "c34012fb70f115fc88905b84a4b5164ec8250c3401157de00fbb196cc1a2117a",
+      "component": "TemplatesConfigurable",
+      "caption": {
+        "ru": "Редактор шаблонов, пресеты и JSON. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Template editor, presets and JSON. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Редактор шаблонов, пресеты и JSON, тёмная тема",
+        "en": "Template editor, presets and JSON, dark theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "templates-light",
+      "file": "assets/ui/templates-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1240,
+      "bytes": 62095,
+      "sha256": "03c0bf109cbaf82eaf48b1b1057b9706938f959283bcd389232d577912978820",
+      "component": "TemplatesConfigurable",
+      "caption": {
+        "ru": "Редактор шаблонов, пресеты и JSON. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Template editor, presets and JSON. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Редактор шаблонов, пресеты и JSON, светлая тема",
+        "en": "Template editor, presets and JSON, light theme"
+      },
+      "recommended": true
+    },
+    {
+      "id": "variables-dark",
+      "file": "assets/ui/variables-dark.png",
+      "theme": "dark",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1240,
+      "bytes": 90989,
+      "sha256": "2ad0577bbcb6f47d0d4bc4ff8ccfd666d3318417f9b658fbd80209f732b48ae8",
+      "component": "VariablesTree",
+      "caption": {
+        "ru": "Переменные для шаблонов. Тёмная тема. Пример с демонстрационными данными.",
+        "en": "Template variable reference. Dark theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Переменные для шаблонов, тёмная тема",
+        "en": "Template variable reference, dark theme"
+      },
+      "recommended": false
+    },
+    {
+      "id": "variables-light",
+      "file": "assets/ui/variables-light.png",
+      "theme": "light",
+      "uiLanguage": "en",
+      "kind": "detached-production-component-render",
+      "demonstrationData": true,
+      "desktopScreenshot": false,
+      "sdk": "IU-253.33813.55",
+      "scale": 2,
+      "width": 1920,
+      "height": 1240,
+      "bytes": 98734,
+      "sha256": "75421f7e8315de70ce872fae1598861cfa6e07ef1814755546435acd9ae574c1",
+      "component": "VariablesTree",
+      "caption": {
+        "ru": "Переменные для шаблонов. Светлая тема. Пример с демонстрационными данными.",
+        "en": "Template variable reference. Light theme. Shown with sample data."
+      },
+      "alt": {
+        "ru": "Переменные для шаблонов, светлая тема",
+        "en": "Template variable reference, light theme"
+      },
+      "recommended": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "product": "GitLine",
+  "siteUrl": "https://dmitry-osin.github.io/getgitline/",
+  "siteBase": "/getgitline/",
+  "siteRepositoryName": "getgitline",
+  "issuesRepositoryUrl": "https://github.com/dmitry-osin/gitline-issues",
+  "defaultLocale": "ru",
+  "supportedLocales": [
+    "ru",
+    "en"
+  ],
+  "marketplaceUrl": null,
+  "publicDownloadUrl": null,
+  "currentVersion": null,
+  "author": {
+    "name": "Dmitry Osin",
+    "email": "d@osin.pro",
+    "website": "https://osin.blog",
+    "github": "https://github.com/dmitry-osin"
+  },
+  "pluginId": "pro.osin.tools.idea.gitline",
+  "license": "Apache-2.0",
+  "sourceRepositoryIsPrivate": true
+}

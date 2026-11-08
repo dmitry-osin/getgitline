@@ -1,0 +1,14 @@
+{
+  "name": "getgitline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitLine bilingual static product website",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs",
+    "check:preview": "node scripts/check-preview.mjs"
+  }
+}
